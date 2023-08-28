@@ -16,6 +16,8 @@
 		EC1445DE2A9B27F200548C17 /* TableViewAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1445DD2A9B27F200548C17 /* TableViewAppTests.swift */; };
 		EC1445E82A9B27F200548C17 /* TableViewAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1445E72A9B27F200548C17 /* TableViewAppUITests.swift */; };
 		EC1445EA2A9B27F200548C17 /* TableViewAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1445E92A9B27F200548C17 /* TableViewAppUITestsLaunchTests.swift */; };
+		EC1445F92A9B2D5D00548C17 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1445F82A9B2D5D00548C17 /* TableViewController.swift */; };
+		ECBFF32C2A9C565A0051AFB7 /* AddListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECBFF32B2A9C565A0051AFB7 /* AddListViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		EC1445E32A9B27F200548C17 /* TableViewAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableViewAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC1445E72A9B27F200548C17 /* TableViewAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewAppUITests.swift; sourceTree = "<group>"; };
 		EC1445E92A9B27F200548C17 /* TableViewAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		EC1445F82A9B2D5D00548C17 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		ECBFF32B2A9C565A0051AFB7 /* AddListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddListViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,8 @@
 				EC1445CF2A9B27F200548C17 /* Assets.xcassets */,
 				EC1445D12A9B27F200548C17 /* LaunchScreen.storyboard */,
 				EC1445D42A9B27F200548C17 /* Info.plist */,
+				EC1445F82A9B2D5D00548C17 /* TableViewController.swift */,
+				ECBFF32B2A9C565A0051AFB7 /* AddListViewController.swift */,
 			);
 			path = TableViewApp;
 			sourceTree = "<group>";
@@ -259,8 +265,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				EC1445CB2A9B27F100548C17 /* ViewController.swift in Sources */,
+				ECBFF32C2A9C565A0051AFB7 /* AddListViewController.swift in Sources */,
 				EC1445C72A9B27F100548C17 /* AppDelegate.swift in Sources */,
 				EC1445C92A9B27F100548C17 /* SceneDelegate.swift in Sources */,
+				EC1445F92A9B2D5D00548C17 /* TableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
